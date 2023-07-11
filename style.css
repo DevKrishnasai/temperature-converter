@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  font-family: monospace, sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.temp-container {
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 60%;
+  font-family: monospace;
+  padding: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 250, 250);
+  font-size: 18px;
+}
+
+.btn {
+  align-items: center;
+  margin-top: 10px;
+}
+
+#reset {
+  font-family: monospace;
+  background-color: red;
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#valuesContainer {
+  margin-top: 30px;
+  padding: 30px;
+  width: auto;
+}
+
+.list {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: monospace, sans-serif;
+}
+
+span {
+  margin: auto;
+  font-weight: 700;
+}
