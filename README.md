@@ -1,4 +1,3 @@
-
 # Temperature Converter
 The Temperature Converter is a web application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin scales. It provides a user-friendly interface and real-time conversion results. The project is implemented using HTML, CSS, and JavaScript.
 
